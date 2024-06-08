@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item" data-name="Lion" data-location="Africa">
+            <img src="assets/images/baboon.jpg" alt="Lion">
+            <div class="details">
+                <h3>Lion</h3>
+                <p>Africa</p>
+                <a href="#">Know More →</a>
+            </div>
+        </div>
+        <div class="gallery-item" data-name="Tiger" data-location="Asia">
+            <img src="assets/images/fox.jpg" alt="Tiger">
+            <div class="details">
+                <h3>Tiger</h3>
+                <p>Asia</p>
+                <a href="#">Know More →</a>
+            </div>
+        </div>
+        <div class="gallery-item" data-name="Elephant" data-location="Africa">
+            <img src="assets/images/whale.jpg" alt="Elephant">
+            <div class="details">
+                <h3>Elephant</h3>
+                <p>Africa</p>
+                <a href="#">Know More →</a>
+            </div>
+        </div>
+        <div class="gallery-item" data-name="Kangaroo" data-location="Australia">
+            <img src="assets/images/image1.jpg" alt="Kangaroo">
+            <div class="details">
+                <h3>Kangaroo</h3>
+                <p>Australia</p>
+                <a href="#">Know More →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <span class="close" id="closeModal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
